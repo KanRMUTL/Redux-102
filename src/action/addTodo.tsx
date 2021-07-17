@@ -1,7 +1,7 @@
 import { ADD_TODO } from "./type";
-import { TodoAction } from "../reducer/todoReducer";
+import { Todo } from "../reducer/todoReducer";
 
-const addTodo = (payload: TodoAction) => ({
+const addTodo = (payload: Todo) => ({
   type: ADD_TODO,
   payload,
 });
