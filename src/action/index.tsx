@@ -1,4 +1,3 @@
-import addTodo from "./addTodo";
-import completedTodo from "./completedTodo";
-import deleteTodo from "./deleteTodo";
-export { addTodo, completedTodo, deleteTodo };
+import todoAction from "./todoAction";
+import sidebarAction from "./sidebarAction";
+export { todoAction, sidebarAction };
